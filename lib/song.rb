@@ -48,7 +48,6 @@ class Song
     names = filename.split(" - ")
     song = self.new_by_name(names[1][0...-4])
     song.artist_name = names[0]
-    song
   end
   
 end

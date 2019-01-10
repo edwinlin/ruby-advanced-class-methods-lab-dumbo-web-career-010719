@@ -49,6 +49,7 @@ class Song
     song = self.new_by_name(name[1][0...-4])
     p song.artist_name = names[0]
     p song
+    p names
   end
   
 end
